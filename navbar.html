@@ -3,11 +3,45 @@
 <head>
    
     <title>Team Collaboration</title>
+
+    <style>
+   #main{
+    background-color: rgb(2, 2, 37);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: auto;
+    border-radius: 10px;
+   }
+   #main>h1{
+    margin-left: 50px;
+   }
+
+   .child{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   }
+   h1{
+    color: white;
+
+   }
+
+    </style>
 </head>
 <body>
     
-    <h1>Hello Everyone</h1>
-    <h1>I am Suraj Yadav</h1>
+    <div id="main">
+
+       <h1>Reebok</h1>
+
+       <div class="child">
+        <h1>Men</h1>
+        <h1>Women</h1>
+        <h1>Login</h1>
+        <h1>Singup</h1>
+       </div>
+       
+
+    </div>
    
 </body>
 </html>
